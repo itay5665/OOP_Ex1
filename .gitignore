@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+data/*
+!data/.gitkeep
+output/
+*.mp4
+*.nrrd
+.DS_Store
