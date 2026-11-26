@@ -59,6 +59,7 @@ Other commands, from the repository root:
 python3 scripts/make_synthetic_nrrd.py data/sphere_u8.nrrd --kind sphere --size 64
 python3 scripts/make_orbit_csv.py samples/orbit_64.csv --size 64 --frames 36
 python3 scripts/benchmark.py
+python3 scripts/experiment.py
 python3 -m pytest
 python3 -m pytest -m slow
 ```
@@ -70,7 +71,7 @@ Put NRRD files in `data/`. That directory is gitignored because the files are la
 ```text
 Ex0.py                  command-line entry point
 projection/             library (no video I/O inside the projector)
-scripts/                synthetic volumes, orbit CSV, benchmark
+scripts/                synthetic volumes, orbit CSV, benchmark, experiment
 tests/                  pytest
 docs/                   SRS, algorithm, dataset, testing, experiment
 samples/                Ex0.csv, edge cases, orbit
